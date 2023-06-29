@@ -1,6 +1,9 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
+    <div>
+      <h1>RANDOM COUNTER </h1>
+    </div>
     <div class="counter">
       {{ $store.state.counter }}
     </div>
